@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Flutter Engineer Portfolio - Projects, Skills, Experience, and Contact"
+    />
+    <title>Flutter Engineer • Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a href="#top" class="brand">
+          <span class="brand-logo" aria-hidden="true">◆</span>
+          <span class="brand-text">Flutter Engineer</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-expanded="false"
+          aria-controls="siteNav"
+          aria-label="Toggle navigation"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="sun" aria-hidden="true">☀</span>
+          <span class="moon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="about">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>
+              Hi, I’m <span class="accent">Mohamed</span> — Flutter Engineer
+            </h1>
+            <p>
+              I build high-quality, performant mobile apps with Flutter and
+              Dart. I care about clean architecture, delightful UX, and
+              maintainable code.
+            </p>
+            <div class="hero-ctas">
+              <a href="#projects" class="btn primary">View Projects</a>
+              <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <ul class="meta">
+              <li><span>Location</span> Remote • GMT+2</li>
+              <li><span>Open to</span> Contract & Full-time</li>
+              <li>
+                <span>Focus</span> Flutter, Dart, Firebase, Clean Architecture
+              </li>
+            </ul>
+          </div>
+          <div class="hero-media">
+            <img src="assets/img/hamoo.jpeg" alt="Omar — Flutter Engineer" />
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2>Skills</h2>
+          <div class="skill-groups">
+            <div class="card">
+              <h3>Core</h3>
+              <ul class="tags">
+                <li>Dart</li>
+                <li>Flutter</li>
+                <li>Flutter Web</li>
+                <li>Animations</li>
+                <li>Isolates</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Architecture</h3>
+              <ul class="tags">
+                <li>Clean Architecture</li>
+                <li>Bloc</li>
+                <li>Riverpod</li>
+                <li>Provider</li>
+                <li>GetIt</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Backend & Data</h3>
+              <ul class="tags">
+                <li>Firebase</li>
+                <li>Supabase</li>
+                <li>REST</li>
+                <li>gRPC</li>
+                <li>SQLite</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Tooling</h3>
+              <ul class="tags">
+                <li>CI/CD</li>
+                <li>Fastlane</li>
+                <li>App Distribution</li>
+                <li>Unit & Widget Tests</li>
+                <li>Git</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <div class="filters" role="tablist" aria-label="Project filters">
+              <button
+                class="filter-btn active"
+                data-filter="all"
+                role="tab"
+                aria-selected="true"
+              >
+                All
+              </button>
+              <button class="filter-btn" data-filter="mobile" role="tab">
+                Mobile
+              </button>
+              <button class="filter-btn" data-filter="web" role="tab">
+                Web
+              </button>
+              <button class="filter-btn" data-filter="ui" role="tab">
+                UI/UX
+              </button>
+            </div>
+          </div>
+
+          <div class="grid" id="projectGrid">
+            <article class="project-card" data-tags="mobile ui">
+              <div class="thumb">
+                <img src="assets/img/1.png" alt="Finance App UI" />
+              </div>
+              <div class="content">
+                <h3>News and Weather</h3>
+                <p>
+                  📰 View the latest news in an organized manner. 🌦️ Get live
+                  weather forecasts using the Google Maps API. 💾 Save favorite
+                  news using SharedPreferences with the option to delete them at
+                  any time.
+                </p>
+                <div class="project-meta">
+                  <span>Flutter • Riverpod • SQLite</span>
+                  <div class="links">
+                    <a href="#" class="link">Case Study</a>
+                    <a href="#" class="link">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-tags="mobile web">
+              <div class="thumb">
+                <img src="assets/img/2.png" alt="E-commerce App" />
+              </div>
+              <div class="content">
+                <h3>ToDo App</h3>
+                <p>
+                  I've just completed my first practical project: a ToDo App
+                  that helps users organize their daily tasks in an easy and
+                  organized way. This experience was very important for me
+                  because it was the first time I applied multiple technologies
+                  together: 🔐 Firebase Authentication to log in and create an
+                  account ☁️ Firestore Database to store and manage tasks 🗂
+                  Firebase Storage to manage files and images 🧩 Cubit for state
+                  management 🏗 Clean Architecture (MVVM) to organize code in a
+                  clean and scalable way
+                </p>
+                <div class="project-meta">
+                  <span>Flutter • Firebase • Stripe</span>
+                  <div class="links">
+                    <a href="#" class="link">Live</a>
+                    <a href="#" class="link">Repo</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-tags="ui">
+              <div class="thumb">
+                <img src="assets/img/mock-ui.svg" alt="Design System" />
+              </div>
+              <div class="content">
+                <h3>Orbit UI</h3>
+                <p>
+                  Component library with theming, motion guidelines, and
+                  accessibility tokens.
+                </p>
+                <div class="project-meta">
+                  <span>Figma • Flutter • Tokens</span>
+                  <div class="links">
+                    <a href="#" class="link">Preview</a>
+                    <a href="#" class="link">Docs</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience" id="experience">
+        <div class="container">
+          <h2>Experience</h2>
+          <ol class="timeline">
+            <li>
+              <div class="marker"></div>
+              <div class="details">
+                <h3>Senior Flutter Engineer • Acme Corp</h3>
+                <span class="when">2023 — Present</span>
+                <p>
+                  Led the mobile team shipping a fintech app to 500k+ users,
+                  improving retention by 22%.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="marker"></div>
+              <div class="details">
+                <h3>Flutter Engineer • Startup XYZ</h3>
+                <span class="when">2021 — 2023</span>
+                <p>
+                  Built greenfield marketplace app with modular architecture and
+                  CI/CD pipelines.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="marker"></div>
+              <div class="details">
+                <h3>Mobile Developer • Freelance</h3>
+                <span class="when">2019 — 2021</span>
+                <p>
+                  Delivered multiple client apps with a focus on performance and
+                  polished UX.
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+                required
+              />
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project"
+                required
+              ></textarea>
+              <small class="error" aria-live="polite"></small>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+              <p class="form-note">
+                Prefer email?
+                <a href="mailto:hello@example.com">hello@example.com</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Omar — Flutter Engineer</p>
+        <div class="social">
+          <a href="#" aria-label="GitHub">GH</a>
+          <a
+            href="https://www.linkedin.com/in/mohamed-yaser-39aaba344/"
+            aria-label="LinkedIn"
+            >IN</a
+          >
+          <a href="#" aria-label="Twitter / X">X</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
