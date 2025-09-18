@@ -16,6 +16,38 @@
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+    <meta name="theme-color" content="#0b0c0f" />
+    <meta name="author" content="Flutter Engineer" />
+    <meta name="robots" content="index,follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Flutter Engineer • Portfolio" />
+    <meta
+      property="og:description"
+      content="Projects, Skills, Experience, and Contact"
+    />
+    <meta property="og:image" content="assets/img/profile.svg" />
+    <meta property="og:url" content="/" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Flutter Engineer • Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Projects, Skills, Experience, and Contact"
+    />
+    <meta name="twitter:image" content="assets/img/profile.svg" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Flutter Engineer",
+        "jobTitle": "Flutter Engineer",
+        "url": "/",
+        "sameAs": ["https://github.com/", "https://www.linkedin.com/"]
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
@@ -45,6 +77,7 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -81,7 +114,11 @@
             </ul>
           </div>
           <div class="hero-media">
-            <img src="assets/img/hamoo.jpeg" alt="Omar — Flutter Engineer" />
+            <img
+              src="assets/img/hamoo.jpeg"
+              alt="Mohamed — Flutter Engineer"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
@@ -162,7 +199,86 @@
           <div class="grid" id="projectGrid">
             <article class="project-card" data-tags="mobile ui">
               <div class="thumb">
-                <img src="assets/img/1.png" alt="Finance App UI" />
+                <img
+                  src="assets/img/WhatsApp Image 2025-09-18 at 1.40.49 PM.jpeg"
+                  alt="Community Space Booking app home screen"
+                  loading="lazy"
+                />
+              </div>
+              <div class="content">
+                <h3>Community Space Booking</h3>
+                <p>
+                  Discover venues, browse categories, and book rooms or events.
+                  Features promo sliders, location badges, ratings, and a clean
+                  bottom navigation.
+                </p>
+                <div class="project-meta">
+                  <span>Flutter • Bloc/Cubit • Firebase</span>
+                  <div class="links">
+                    <a href="#" class="link">Case Study</a>
+                    <a href="#" class="link">Repo</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-tags="mobile ui">
+              <div class="thumb">
+                <img
+                  src="assets/img/WhatsApp Image 2025-09-18 at 1.41.57 PM.jpeg"
+                  alt="Eazy Learning app RTL dashboard"
+                  loading="lazy"
+                />
+              </div>
+              <div class="content">
+                <h3>Eazy Learning</h3>
+                <p>
+                  Arabic-first learning app with RTL UI, offers banner, modular
+                  categories, and progress tracking cards. Smooth, accessible
+                  navigation and theming.
+                </p>
+                <div class="project-meta">
+                  <span>Flutter • Firebase • Hive</span>
+                  <div class="links">
+                    <a href="#" class="link">Preview</a>
+                    <a href="#" class="link">Docs</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-tags="mobile ui">
+              <div class="thumb">
+                <img
+                  src="assets/img/WhatsApp Image 2025-09-18 at 1.47.20 PM.jpeg"
+                  alt="Food ordering app home with best sellers and promo"
+                  loading="lazy"
+                />
+              </div>
+              <div class="content">
+                <h3>Foodie Ordering</h3>
+                <p>
+                  Food delivery UI with search, horizontal best‑seller list,
+                  promotional banner, and recommended items grid. Clean cart
+                  flow and modern bottom navigation.
+                </p>
+                <div class="project-meta">
+                  <span>Flutter • Riverpod • Stripe</span>
+                  <div class="links">
+                    <a href="#" class="link">Live</a>
+                    <a href="#" class="link">Repo</a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card" data-tags="mobile ui">
+              <div class="thumb">
+                <img
+                  src="assets/img/1.png"
+                  alt="News and Weather app"
+                  loading="lazy"
+                />
               </div>
               <div class="content">
                 <h3>News and Weather</h3>
@@ -184,7 +300,7 @@
 
             <article class="project-card" data-tags="mobile web">
               <div class="thumb">
-                <img src="assets/img/2.png" alt="E-commerce App" />
+                <img src="assets/img/2.png" alt="ToDo App" loading="lazy" />
               </div>
               <div class="content">
                 <h3>ToDo App</h3>
@@ -211,7 +327,11 @@
 
             <article class="project-card" data-tags="ui">
               <div class="thumb">
-                <img src="assets/img/mock-ui.svg" alt="Design System" />
+                <img
+                  src="assets/img/mock-ui.svg"
+                  alt="Design System"
+                  loading="lazy"
+                />
               </div>
               <div class="content">
                 <h3>Orbit UI</h3>
@@ -273,6 +393,68 @@
         </div>
       </section>
 
+      <section class="testimonials" id="testimonials" aria-label="Testimonials">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="testimonials-grid">
+            <figure class="testimonial-card">
+              <div class="avatar">
+                <img
+                  src="assets/img/avatar-1.svg"
+                  alt="Avatar of Lina — Product Manager"
+                  loading="lazy"
+                />
+              </div>
+              <blockquote>
+                “Mohamed delivered our Flutter app ahead of schedule with a
+                pixel-perfect UI and solid architecture. He’s proactive,
+                communicative, and a pleasure to work with.”
+              </blockquote>
+              <figcaption>
+                <span class="name">Lina M.</span>
+                <span class="role">Product Manager, Fintech Startup</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial-card">
+              <div class="avatar">
+                <img
+                  src="assets/img/avatar-2.svg"
+                  alt="Avatar of Karim — Tech Lead"
+                  loading="lazy"
+                />
+              </div>
+              <blockquote>
+                “Clean code, thoughtful state management, and excellent testing
+                discipline. Mohamed raised the bar for our mobile codebase.”
+              </blockquote>
+              <figcaption>
+                <span class="name">Karim A.</span>
+                <span class="role">Tech Lead, E‑commerce</span>
+              </figcaption>
+            </figure>
+
+            <figure class="testimonial-card">
+              <div class="avatar">
+                <img
+                  src="assets/img/avatar-3.svg"
+                  alt="Avatar of Sara — Founder"
+                  loading="lazy"
+                />
+              </div>
+              <blockquote>
+                “From discovery to delivery, he communicated clearly and shipped
+                a performant Flutter app our users love. Highly recommend.”
+              </blockquote>
+              <figcaption>
+                <span class="name">Sara T.</span>
+                <span class="role">Founder, SaaS</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
       <section class="contact" id="contact">
         <div class="container">
           <h2>Contact</h2>
@@ -324,13 +506,14 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>© <span id="year"></span> Omar — Flutter Engineer</p>
+        <p>© <span id="year"></span> Mohamed — Flutter Engineer</p>
         <div class="social">
           <a href="#" aria-label="GitHub">GH</a>
           <a
             href="https://www.linkedin.com/in/mohamed-yaser-39aaba344/"
             aria-label="LinkedIn"
             >IN</a
+          >
           >
           <a href="#" aria-label="Twitter / X">X</a>
         </div>
