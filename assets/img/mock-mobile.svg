@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Mobile mock">
+  <rect x="140" y="30" width="360" height="300" rx="28" fill="#0b0c0f" stroke="#1a1f2b"/>
+  <rect x="170" y="70" width="300" height="40" rx="8" fill="#11131a" stroke="#1a1f2b"/>
+  <rect x="170" y="130" width="220" height="18" rx="6" fill="#2193b0"/>
+  <rect x="170" y="160" width="260" height="12" rx="6" fill="#11131a"/>
+  <rect x="170" y="180" width="240" height="12" rx="6" fill="#11131a"/>
+  <rect x="170" y="220" width="80" height="32" rx="10" fill="#6dd5ed"/>
+</svg>

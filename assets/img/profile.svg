@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="Profile placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#6dd5ed"/>
+      <stop offset="100%" stop-color="#2193b0"/>
+    </linearGradient>
+    <clipPath id="r"><rect x="0" y="0" width="320" height="320" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect x="0" y="0" width="320" height="320" fill="#0c0f14"/>
+    <circle cx="160" cy="122" r="62" fill="url(#g)"/>
+    <rect x="64" y="200" width="192" height="96" rx="48" fill="url(#g)"/>
+    <rect x="0" y="280" width="320" height="80" fill="#0b0c0f"/>
+  </g>
+</svg>
